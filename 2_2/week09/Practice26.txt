@@ -1,0 +1,17 @@
+처음 sessionId: 6F031922A909C7010F380ED1FE5E79C1
+
+현재 웹 브라우저에서 새 탭을 열고 session01을 실행
+-> 새로운 세션 생성되지 않음, sessionId가 같음, session시간 이어짐
+sessionId: 6F031922A909C7010F380ED1FE5E79C1
+
+현재 웹 브라우저에서 Ctrl+N으로 새 창 열어 session01을 실행
+-> 새로운 세션 생성되지 않음, sessionId가 같음, session시간 이어짐
+sessionId: 6F031922A909C7010F380ED1FE5E79C1
+
+위의 문제를 수행한 웹 브라우저가 열려있는 상태에서 다른 회사의 웹 브라우저를 열고 session01을 실행
+-> 새로운 세션 생성됨, sessionId가 다름, session시간 새로 시작
+sessionId: 84C364C45F5BFB8A4AFF2B45580EBC52
+
+현재 열려 있는 브라우저 창을 모두 닫은 후 새로 시작
+-> 새로운 세션 생성됨, sessionId가 다름, session시간 새로 시작
+sessionId: 1E9C717B07D95DEEF931836B1181DFD4
