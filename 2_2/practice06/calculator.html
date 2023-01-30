@@ -1,0 +1,51 @@
+<!--컴퓨터학과 20210756 김세진 chrome(크롬)-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            *{
+                text-align: center;
+                margin-right:auto;
+                margin-left:auto;
+            }
+            .text{
+                font-style: italic; 
+                font-family: 'Times New Roman', Times, serif;
+                font-weight: inherit;
+            }
+            table{
+                width:300px;
+                height:300px;
+                border-collapse: collapse;
+            }
+            img{
+                width:220px;
+                height:250px;
+            }
+        </style>
+        <script>
+            function calc(){
+                var exp=prompt("계산할 수식을 입력하세요");
+                var result=eval(exp);
+                if (result){
+                    alert(result)
+                }
+            }
+        </script>
+    </head>
+
+    <body>
+        <table>
+            <tr>
+                <td colspan="2" style="background-color:#66C9F9;"><h1 class="text">CalCuLaTor</td>
+            </tr>
+            <tr>
+                <td><img src="./img/cal.jpg"></td>
+                <td><input type="button" value="계산하기" onClick="calc()"></td>
+            </tr>
+            <tr>
+                <td colspan="2" style="background-color:#66C9F9;"><br><br><br></td>
+            </tr>
+        </table>
+    </body>
+</html>
